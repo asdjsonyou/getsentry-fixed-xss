@@ -188,7 +188,6 @@ class GroupTransformer(Transformer):
           ######################################################################################
 
             ####Fixed in production Cross-site scripting in project name on stream 
-
             'isPublic': obj.is_public,
             'score': getattr(obj, 'sort_value', 0),
             'project': {
